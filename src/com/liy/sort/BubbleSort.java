@@ -17,7 +17,7 @@ public class BubbleSort {
      * 冒泡排序， 将大的数字向后移动
      * @param ints 需要排序的数组
      */
-    private static void bubbleSort1(int[] ints) {
+    public static void bubbleSort1(int[] ints) {
         int count = 0;
         for (int i = 0; i < ints.length - 1; i++) {
             boolean changed = false;
@@ -41,7 +41,7 @@ public class BubbleSort {
      * 冒泡排序, 小的数字往前移动
      * @param ints 需要排序的数组
      */
-    private static void bubbleSort2(int[] ints) {
+    public static void bubbleSort2(int[] ints) {
         int count = 0;
         for (int i = 0; i < ints.length - 1; i++) {
             boolean changed = false;

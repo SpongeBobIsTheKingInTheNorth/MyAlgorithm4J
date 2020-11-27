@@ -11,7 +11,7 @@ package com.liy.sort;
  */
 public class InsertSort {
 
-    private static void sort(int[] ints) {
+    public static void sort(int[] ints) {
         // 1.首次排序， 认为[0, 0]数组有序， 因为只有1个元素.
         // 2.从index=1的元素开始进行插入排序
         for (int i = 1; i < ints.length; i++) {

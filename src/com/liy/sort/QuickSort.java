@@ -6,13 +6,13 @@ package com.liy.sort;
 
 /**
  * 快速排序算法实现
- * 平均时间复杂度O(N*log<sub>2</sub>N)，最坏O(N<sup>2</sup>)，最好O(N)， 空间复杂度O(N*log<sub>2</sub>N)
+ * 平均时间复杂度O(N*log<sub>2</sub>N)，最坏O(N<sup>2</sup>)，最好O(N)，空间复杂度O(N*log<sub>2</sub>N)
  * 相等元素可能会因为分区而交换顺序，所以它是不稳定的算法
  * @author liyang
  */
 public class QuickSort {
 
-    private static void sort(int[] ints, int left, int right) {
+    public static void sort(int[] ints, int left, int right) {
         if (left >= right) {
             // 7.left， right相等时， 证明数组已排序完成
             return;
